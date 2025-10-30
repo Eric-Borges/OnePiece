@@ -32,7 +32,7 @@ public class Pirate {
         }
     }
 
-    public String toString(){
+    public String toString() {
         return "Nome: " + name +
                 "\nId: " + id +
                 "\nRaça: " + race +

@@ -10,5 +10,5 @@ import java.util.List;
 @Repository
 public interface PirateRepository extends JpaRepository<Pirate, Integer> {
     public List<Pirate> findByRace(Race race);
-    
+
 }
