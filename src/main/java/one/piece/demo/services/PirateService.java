@@ -12,6 +12,6 @@ public class PirateService {
     private PirateRepository void insert pirate
     private PirateRepository= new PirateRepository
     public List<Pirate> findByRace(Race race);
-    public <Pirate> findByID(PirateDtoId);
+    public Pirate findByID(PirateDtoId);
 
 }
